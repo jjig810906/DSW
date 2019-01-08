@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
 '''
-daum 포털사이트에서 주식 정보 수집
+Naver 포털사이트에서 주식 정보 수집
 
 '''
 import requests
@@ -9,6 +10,8 @@ from bs4 import BeautifulSoup
 g_url_kospi = "http://finance.naver.com/sise/sise_market_sum.nhn?sosok=0&page={0}"             # 코스피 주식 종목 정보
 g_url_kosdaq = "http://finance.naver.com/sise/sise_market_sum.nhn?sosok=1&page={0}"            # 코스닥 주식 종목 정보
 g_url_stockinfo = "http://finance.naver.com/item/frgn.nhn?page={0}&code={1}"                   # 주식 상세 가격정보
+
+
 
 
 #주식코드 정보와 주식명 Dict를 만들어 리턴한다. (p_type = kospi or kosdaq)
@@ -95,7 +98,7 @@ def get_stock_detail_list(p_code, p_early_stop_date):
                         m_att = [m_att1, m_att2, m_att3, m_att4]
                         m_dic_stock[m_key] = m_att
 
-                        #print(m_contents[1].text + " = " + m_dic_stock[m_contents[1].text.replace('.', '')])
+                        #print(m_contents[1].text + ' = ' + str(m_dic_stock[m_key]))
 
             except Exception as ex:
                 print("-------------------------")
