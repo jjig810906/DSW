@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb1d96d1-1c81-4419-a440-96a98fb51374" name="Default" comment="" />
+    <list default="true" id="bb1d96d1-1c81-4419-a440-96a98fb51374" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Daemon.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsw.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/SystemConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/SystemConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ElasticData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/ElasticData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StockCollector/Lib/NaverStock.py" beforeDir="false" afterPath="$PROJECT_DIR$/StockCollector/Lib/NaverStock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StockCollector/StockCollector.py" beforeDir="false" afterPath="$PROJECT_DIR$/StockCollector/StockCollector.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +34,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="342">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding>
+                <element signature="e#42#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dsw.service">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/info.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -34,34 +64,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StockCollector/StockCollector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="361">
+              <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="30" />
               <folding>
-                <element signature="e#36#63#0" expanded="true" />
+                <element signature="e#36#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data/ElasticData.py">
+        <entry file="file://$PROJECT_DIR$/StockCollector/Lib/NaverStock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="266">
+              <caret line="14" column="103" lean-forward="true" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
               <folding>
-                <element signature="e#25#64#0" expanded="true" />
+                <element signature="e#56#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StockCollector/Lib/NaverStock.py">
+        <entry file="file://$PROJECT_DIR$/Data/ElasticData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="266">
+              <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
               <folding>
-                <element signature="e#31#46#0" expanded="true" />
+                <element signature="e#25#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,65 +126,28 @@
         <option value="$PROJECT_DIR$/StockCollector/DaumStockCollector.py" />
         <option value="$PROJECT_DIR$/Test.py" />
         <option value="$PROJECT_DIR$/Sample/TestKeras.py" />
+        <option value="$PROJECT_DIR$/Daemon.sh" />
+        <option value="$PROJECT_DIR$/info.txt" />
         <option value="$PROJECT_DIR$/Config/SystemConfig.py" />
+        <option value="$PROJECT_DIR$/Data/ElasticData.py" />
+        <option value="$PROJECT_DIR$/dsw.service" />
+        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/StockCollector/StockCollector.py" />
         <option value="$PROJECT_DIR$/StockCollector/Lib/NaverStock.py" />
-        <option value="$PROJECT_DIR$/Data/ElasticData.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1294" />
-    <option name="height" value="1407" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DSW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSW" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSW" type="462c0819:PsiDirectoryNode" />
-              <item name="Config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSW" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSW" type="462c0819:PsiDirectoryNode" />
-              <item name="Sample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSW" type="462c0819:PsiDirectoryNode" />
-              <item name="StockCollector" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSW" type="462c0819:PsiDirectoryNode" />
-              <item name="StockCollector" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -171,10 +164,21 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DSW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSW" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSWVE" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -194,7 +198,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.StockWinner">
+  <component name="RunManager" selected="Python.NaverStock">
+    <configuration name="NaverStock" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="StockWinner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\PROJECT\StockWinner\StockEnv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StockCollector" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StockCollector/Lib/NaverStock.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="StockCollector" type="PythonConfigurationType" factoryName="Python">
       <module name="StockWinner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,9 +308,11 @@
       <item itemvalue="Python.StockWinner" />
       <item itemvalue="Python.StockCollector" />
       <item itemvalue="Python.TestKeras" />
+      <item itemvalue="Python.NaverStock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.NaverStock" />
         <item itemvalue="Python.TestKeras" />
       </list>
     </recent_temporary>
@@ -314,22 +341,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49723756" visible="true" weight="0.12802951" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49723756" visible="true" weight="0.12802951" />
       <window_info id="Structure" order="1" sideWeight="0.50276244" side_tool="true" weight="0.17218283" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50276244" side_tool="true" weight="0.17218283" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5756369" weight="0.2494577" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7316879" weight="0.29284164" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7316879" visible="true" weight="0.29284164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960598" weight="0.32942098" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960598" weight="0.3286334" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4968479" visible="true" weight="0.3275488" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49802995" weight="0.32761312" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4968479" weight="0.3275488" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49802995" weight="0.3275488" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5031521" side_tool="true" weight="0.32839313" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -356,15 +384,6 @@
     </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/StockCollector/Lib/NaverStock.py</url>
-          <line>97</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="m_tr_tag.09" />
@@ -375,13 +394,17 @@
     <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-702777450/builtins.py" />
     <entry file="file://$PROJECT_DIR$/StockCollector/TestClass.py" />
     <entry file="file://$PROJECT_DIR$/StockEnv/Lib/site-packages/bs4/element.py" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sample/TestKeras.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -392,39 +415,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StockCollector/Lib/NaverStock.py">
+    <entry file="file://$PROJECT_DIR$/Daemon.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#31#46#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StockCollector/StockCollector.py">
+    <entry file="file://$PROJECT_DIR$/dsw.service">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="190">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/ElasticData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
           <folding>
-            <element signature="e#36#63#0" expanded="true" />
+            <element signature="e#25#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="342">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#42#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/ElasticData.py">
+    <entry file="file://$PROJECT_DIR$/StockCollector/StockCollector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="361">
+          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="30" />
           <folding>
-            <element signature="e#25#64#0" expanded="true" />
+            <element signature="e#36#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StockCollector/Lib/NaverStock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="103" lean-forward="true" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
+          <folding>
+            <element signature="e#56#71#0" expanded="true" />
           </folding>
         </state>
       </provider>

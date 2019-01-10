@@ -1,0 +1,17 @@
+
+서비스로 등록하기위해 /etc/systemd/system/ 여기에 파일을 생성
+생성파일명은 dsw.service로 만든다.
+
+안에 내용은 아래와 같이 만든다.
+
+[Unit]
+Description = DSW
+After = network.target
+
+[Service]
+Type = simple
+PIDFile = /var/run/dsw.pid
+ExecStart = /dsw/Daemon.sh
+
+[Install]
+WantedBy = multi-user.target

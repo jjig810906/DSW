@@ -1,5 +1,5 @@
 server_info = {
-    'elasticsearch_ip': '192.168.11.11',
+    'elasticsearch_ip': '127.0.0.1',
     'elasticsearch_port': '9200'
 }
 

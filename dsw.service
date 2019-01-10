@@ -1,0 +1,11 @@
+[Unit]
+Description = DSW
+After = network.target
+
+[Service]
+Type = simple
+PIDFile = /var/run/dsw.pid
+ExecStart = /dsw/Daemon.sh
+
+[Install]
+WantedBy = multi-user.target
